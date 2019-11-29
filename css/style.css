@@ -1,0 +1,324 @@
+body{
+	font-family: 'Ebrima', sans-serif;;
+	font-size: 14px;
+	color: #fff;
+}
+/*diseño del encabezado*/
+header{
+	background-color: #fff;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+header h1{
+	font-size: 25px;
+}
+
+#carrusel{
+	/*
+	background-image:url("../img/slide-1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 20% 0;
+	text-align: center;
+	color: #fff;
+	*/
+}
+#carrusel h3, #carrusel h2{
+	text-transform: uppercase;
+}
+#carrusel h3{
+	color: #af201a;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+#carrusel h2{
+	font-family: 'Ebrima', serif;
+	font-size: 45px;
+}
+.carousel-caption span{
+	display: block;
+}
+#carrusel .btn-light{
+	padding: 7px 30px;
+	letter-spacing: 2px;
+	background-color: #AF201A;
+	border: 0;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+	color: #FFF;
+	margin-top: 5%;
+}
+#carrusel .btn-light:hover{
+	border: 1px solid #af201a;
+	color: #af201a;
+	background-color: #FFF;
+}
+
+.section{
+	padding: 10% 0;
+}
+
+#labs{
+	background-color: #fff;
+	color: #000;
+}
+
+#labs .titulo{
+	font-family: 'Ebrima', sans-serif;
+	color: #010e4e;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+#labs .subtitulo{
+	color: #af201a;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 8px;
+	margin-bottom: 30px;
+}
+
+#labs h4{
+	color: #af201a;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+li .nav-item{
+	display: block;
+}
+
+.btn-dorado{
+	background-color: #010e4e;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	
+}
+.btn-dorado:hover{
+	background-color: #fff;
+	color: #010e4e;
+	border: 1px solid #010e4e;
+}
+
+
+#who{
+	background-color: #f2f2f2;
+	color: #000;
+	text-align: left;
+}
+
+#who .titulo{
+	font-family: 'Ebrima', sans-serif;
+	color: #010e4e;
+	font-size: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+
+#who .subtitulo{
+	color: #af201a;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+#who .btn-dorado{
+	background-color: #010e4e;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 0;
+}
+#who .btn-dorado:hover{
+	color: #010e4e;
+	background-color: #fff;
+	border: 1px solid #010e4e;
+}
+
+
+
+#labs .subtitulo::before{
+	content: url("../img/logo cam.png");
+	display: block;
+	margin: 30px auto;
+}
+
+
+
+.carousel-caption{
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+
+.carousel-caption span{
+	background-color: #010e4e;
+}
+
+.nav-sociales a{
+	background-color: #010e4e;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	line-height: 30px;
+	text-align: center;
+	padding: 0;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.nav-sociales a:hover{
+	background-color: #af201a; 
+	color: #fff;
+	border: 0;
+}
+
+.nav-sociales.navbar-nav .nav-link:hover{
+	border: 0;
+	color: #fff;
+}
+
+.nav-sociales.navbar-nav .nav-link{
+	color: #fff;
+}
+
+
+
+footer{
+	background-color: #121212;
+	color: #8c8c8c;
+	padding: 30px 0;
+}
+	
+
+
+footer span{
+	display: block;
+}
+
+footer .img-fluid{
+	height: 70px;
+}
+
+
+#portada{
+	background-image: url("../img/edificio CATI.png");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	background-repeat: no-repeat;
+}
+
+#portada h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	background-color: #af201a;
+	text-align: right;
+	padding: 20% 0;
+	margin: 30% 0;
+
+}
+
+.section{
+	padding: 10% 0;
+}
+
+#articulo{
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+#articulo img{
+	width: 313px;
+	height: 450px;
+}
+
+#articulo p{
+	margin-top: 20px;
+}
+
+#articulo span{
+	display: block;
+}
+
+#mision-vision{
+	background-color: #fff;
+	color: #000;
+	padding: 30px;
+	text-align: center;
+}
+
+.titulo{
+	font-family: 'Ebrima', sans-serif;
+	color: #af201a;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 8px;
+	font-weight: 600;
+}
+
+#articulo .titulo{
+	text-align: left;
+}	
+	
+
+
+#contact{
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+#contact .fas{
+	background-color: #010e4e;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
